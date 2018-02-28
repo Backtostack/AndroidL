@@ -4,8 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidL.iml" filepath="$PROJECT_DIR$/AndroidL.iml" />
       <module fileurl="file://$PROJECT_DIR$/P0061Layouts/P0061Layouts.iml" filepath="$PROJECT_DIR$/P0061Layouts/P0061Layouts.iml" />
-      <module fileurl="file://$PROJECT_DIR$/P0061Layouts/P0061Layouts.iml" filepath="$PROJECT_DIR$/P0061Layouts/P0061Layouts.iml" />
-      <module fileurl="file://$PROJECT_DIR$/P0072_LayoutProp/P0072_LayoutProp.iml" filepath="$PROJECT_DIR$/P0072_LayoutProp/P0072_LayoutProp.iml" />
       <module fileurl="file://$PROJECT_DIR$/P0072_LayoutProp/P0072_LayoutProp.iml" filepath="$PROJECT_DIR$/P0072_LayoutProp/P0072_LayoutProp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0041basicviews/p0041basicviews.iml" filepath="$PROJECT_DIR$/p0041basicviews/p0041basicviews.iml" />
