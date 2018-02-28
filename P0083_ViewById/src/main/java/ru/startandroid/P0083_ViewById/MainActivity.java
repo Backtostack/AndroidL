@@ -14,13 +14,14 @@ public class MainActivity extends Activity {
         setContentView(R.layout.layout);
 
         TextView myTextView = (TextView) findViewById(R.id.myText);
-        myTextView.setText("New text in TextView");
+        myTextView.setText("Android it's good language:)");
 
         Button myBtn = (Button) findViewById(R.id.myBtn);
         myBtn.setText("My button");
         myBtn.setEnabled(false);
 
         CheckBox myChb = (CheckBox) findViewById(R.id.myChb);
+        myChb.setText("CheckBox new");
         myChb.setChecked(true);
     }
 }
