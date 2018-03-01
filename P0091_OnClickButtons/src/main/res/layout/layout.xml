@@ -32,5 +32,13 @@
             android:layout_gravity="center_horizontal"
             android:text="Cancel">
         </Button>
+        <Button
+            android:id="@+id/btnLesson"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Lesson"
+            android:onClick="LessonClick">
+        </Button>
     </LinearLayout>
 </LinearLayout>
