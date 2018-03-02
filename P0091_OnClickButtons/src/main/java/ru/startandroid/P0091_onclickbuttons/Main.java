@@ -14,21 +14,27 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout);
-
         //Найдем View элементы
         tvOut = (TextView) findViewById(R.id.tvOut);
         btnOk = (Button) findViewById(R.id.btnOk);
         btnCancel = (Button) findViewById(R.id.btnCancel);
         // создаем обработчик нажатия
-        View.OnClickListener oclBtnOk = new View.OnClickListener() {
+        btnOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Меняем текст в TextView (tvOut)
                 tvOut.setText("Нажата кнопка ОК");
             }
-        };
+        });
+//        View.OnClickListener oclBtnOk = new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // Меняем текст в TextView (tvOut)
+//                tvOut.setText("Нажата кнопка ОК");
+//            }
+//        };
         // присвоим обработчик кнопке OK (btnOk)
-        btnOk.setOnClickListener(oclBtnOk);
+//        btnOk.setOnClickListener(oclBtnOk);
+
         btnCancel.setOnClickListener(this);
     }
 
