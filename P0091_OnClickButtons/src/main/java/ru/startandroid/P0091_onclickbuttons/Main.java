@@ -14,6 +14,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout);
+
         //Найдем View элементы
         tvOut = (TextView) findViewById(R.id.tvOut);
         btnOk = (Button) findViewById(R.id.btnOk);
@@ -29,6 +30,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
         // присвоим обработчик кнопке OK (btnOk)
         btnOk.setOnClickListener(oclBtnOk);
         btnCancel.setOnClickListener(this);
+    }
 
 //        View.OnClickListener oclBtnCancel = new View.OnClickListener() {
 //            @Override
@@ -40,7 +42,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
         // присвоим обработчик кнопке OK (btnOk)
 //        btnCancel.setOnClickListener(oclBtnCancel);   s
 
-    }
+
     @Override
     public void onClick(View v) {
         tvOut.setText("Нажата кнопка Cansel");
