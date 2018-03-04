@@ -1,1 +1,1 @@
-include ':app', ':p0041basicviews', ':p0051layoutfiles', ':P0061Layouts', ':P0072_LayoutProp', ':P0083_ViewById', ':P0091_OnClickButtons', ':P0101_Listener'
+include ':app', ':p0041basicviews', ':p0051layoutfiles', ':P0061Layouts', ':P0072_LayoutProp', ':P0083_ViewById', ':P0091_OnClickButtons', ':P0101_Listener', ':P0111_ResValues'
