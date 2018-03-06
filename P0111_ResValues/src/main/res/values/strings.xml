@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">ResValues</string>
     <string name="TextView">TextView</string>
-    <string name="Button">Button</string>
+    <string name="Button">Смена картинки</string>
 </resources>
