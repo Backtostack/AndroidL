@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LogAndMess</string>
+    <string name="TextView">TextView</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="НажатаКнопкаОК">Нажата кнопка ОК</string>
+    <string name="НажатаКнопкаCancel">Нажата кнопка Cancel</string>
+</resources>
