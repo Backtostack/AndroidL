@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnCancel.setOnClickListener(this);
     }
 
+
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
@@ -46,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.d(TAG, "Нажата нопка Cancel");
                 tvOut.setText(R.string.НажатаКнопкаCancel);
                 Toast toast = Toast.makeText(this, R.string.НажатаКнопкаCancel, Toast.LENGTH_LONG);
-                toast.setGravity(Gravity.CENTER,5,0);
+                toast.setGravity(Gravity.CENTER,0,0);
                 LinearLayout toastImage = (LinearLayout) toast.getView();
                 ImageView imageView = new ImageView(MainActivity.this);
                 imageView.setImageResource(R.drawable.ic_3d_rotation_black_36dp);

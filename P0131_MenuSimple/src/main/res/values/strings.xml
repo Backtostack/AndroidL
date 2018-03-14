@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MenuSimple</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_item1">OpenVideo</string>
+    <string name="action_item2">OpenAudio</string>
+    <string name="action_item3">OpenPhoto</string>
+</resources>
