@@ -4,4 +4,7 @@
     <string name="action_item1">OpenVideo</string>
     <string name="action_item2">OpenAudio</string>
     <string name="action_item3">OpenPhoto</string>
+    <string name="HideGroup">Отобразить группу</string>
+    <string name="HideItem">Отобразить пункт меню</string>
+    <string name="SaveB">SaveButton</string>
 </resources>
