@@ -7,4 +7,5 @@
     <string name="HideGroup">Отобразить группу</string>
     <string name="HideItem">Отобразить пункт меню</string>
     <string name="SaveB">SaveButton</string>
+    <string name="GreateMenu">Создать меню</string>
 </resources>

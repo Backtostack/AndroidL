@@ -6,13 +6,6 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/chbExtGroup"
-        android:text="@string/HideGroup"
-        android:checked="false">
-    </CheckBox>
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/chbExtItem"
         android:text="@string/HideItem"
         android:checked="false">
