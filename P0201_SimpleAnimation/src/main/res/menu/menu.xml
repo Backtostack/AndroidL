@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/MY_ALPHA_ID"
+        android:orderInCategory="1"
+        android:title="alpha"
+        app:showAsAction="never"
+        android:visible="true"/>
+    <item
+        android:id="@+id/MY_SCALE_ID"
+        android:orderInCategory="1"
+        android:title="scale"
+        app:showAsAction="never"
+        android:visible="true"/>
+    <item
+        android:id="@+id/MY_TRANS_ID"
+        android:orderInCategory="1"
+        android:title="translate"
+        app:showAsAction="never"
+        android:visible="true"/>
+    <item
+        android:id="@+id/MY_ROTATE_ID"
+        android:orderInCategory="1"
+        android:title="rotate"
+        app:showAsAction="never"
+        android:visible="true"/>
+    <item
+        android:id="@+id/MY_COMBO_ID"
+        android:orderInCategory="1"
+        android:title="combo"
+        app:showAsAction="never"
+        android:visible="true"/>
+</menu>

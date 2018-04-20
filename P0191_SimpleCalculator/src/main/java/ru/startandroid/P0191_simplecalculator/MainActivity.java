@@ -6,19 +6,21 @@ import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity /*implements View.OnClickListener*/ {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     EditText etNum1;
     EditText etNum2;
 
-    /*Button btnAdd;
+    Button btnAdd;
     Button btnSub;
     Button btnMult;
-    Button btnDiv;*/
+    Button btnDiv;
 
     TextView tvResult;
 
@@ -35,24 +37,25 @@ public class MainActivity extends AppCompatActivity /*implements View.OnClickLis
         etNum1 = (EditText) findViewById(R.id.etNum1);
         etNum2 = (EditText) findViewById(R.id.etNum2);
 
-        /*btnAdd = (Button) findViewById(R.id.btnAdd);
+       btnAdd = (Button) findViewById(R.id.btnAdd);
         btnSub = (Button) findViewById(R.id.btnSub);
         btnMult = (Button) findViewById(R.id.btnMult);
-        btnDiv = (Button) findViewById(R.id.btnDiv);*/
+        btnDiv = (Button) findViewById(R.id.btnDiv);
 
         tvResult = (TextView) findViewById(R.id.tvResult);
         //Присваемаем обработчик кнопкам
-        /*btnAdd.setOnClickListener(this);
+        btnAdd.setOnClickListener(this);
         btnSub.setOnClickListener(this);
         btnDiv.setOnClickListener(this);
-        btnMult.setOnClickListener(this);*/
+        btnMult.setOnClickListener(this);
     }
 
     /*@Override*/
-    public void myClick(View v) {
+    public void onClick(View v) {
         float num1 = 0;
         float num2 = 0;
         float result = 0;
+        Animation anim = null;
         /// Проверяем поля на пустоту
         if (TextUtils.isEmpty(etNum1.getText().toString())
                 || TextUtils.isEmpty(etNum2.getText().toString())) {
@@ -87,6 +90,9 @@ public class MainActivity extends AppCompatActivity /*implements View.OnClickLis
                 break;
         }
         tvResult.setText(num1 + oper + num2 + "=" + result);
+        anim = AnimationUtils.loadAnimation(this,R.anim.myalpha);
+        tvResult.startAnimation(anim);
+
     }
 
     @Override
