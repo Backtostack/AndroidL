@@ -27,11 +27,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent;
         switch (v.getId()) {
             case R.id.btnDate:
-                intent = new Intent("ru.startandroid.action.date");
+                intent = new Intent("ru.startandroid.intent.action.date");
                 startActivity(intent);
                 break;
             case R.id.btnTime:
-                intent = new Intent("ru.startandroid.action.time");
+                intent = new Intent("ru.startandroid.intent.action.time");
                 startActivity(intent);
                 break;
         }

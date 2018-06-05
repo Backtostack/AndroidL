@@ -23,10 +23,10 @@ public class InfoActivity extends AppCompatActivity {
         String format = "", textInfo = "";
 
 
-        if (action.equals("ru.startandroid.action.date")) {
+        if (action.equals("ru.startandroid.intent.action.date")) {
             format = "HH:mm:ss";
             textInfo = "Time : ";
-        } else if (action.equals("ru.startandroid.action.time")) {
+        } else if (action.equals("ru.startandroid.intent.action.time")) {
             format = "dd.MM.yyyy";
             textInfo = "Date : ";
         }

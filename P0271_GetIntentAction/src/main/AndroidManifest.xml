@@ -19,8 +19,8 @@
         <activity android:name=".InfoActivity"
             android:label="Date/Time info">
             <intent-filter>
-                <action android:name="ru.startandroid.action.date"/>
-                <action android:name="ru.startandroid.action.time"/>
+                <action android:name="ru.startandroid.intent.action.date"/>
+                <action android:name="ru.startandroid.intent.action.time"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
