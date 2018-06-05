@@ -1,4 +1,4 @@
-package ru.startandroid.P0262_intentfilter;
+package ru.startandroid.P0271_getintentaction;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    Button btnTime;
     Button btnDate;
+    Button btnTime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,14 +24,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        Intent intent; //Ссылка типа Intent
-        switch (v.getId()) { // Получаем ID нажатой View
-            case R.id.btnDate: // Если возвращаеться True, выполняем условие
-                intent = new Intent("ru.startandroid.intent.action.showdate");
+        Intent intent;
+        switch (v.getId()) {
+            case R.id.btnDate:
+                intent = new Intent("ru.startandroid.action.date");
                 startActivity(intent);
                 break;
             case R.id.btnTime:
-                intent = new Intent("ru.startandroid.intent.action.showtime");
+                intent = new Intent("ru.startandroid.action.time");
                 startActivity(intent);
                 break;
         }
