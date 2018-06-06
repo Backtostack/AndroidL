@@ -20,6 +20,8 @@
       <module fileurl="file://$PROJECT_DIR$/P0201_SimpleAnimation/P0201_SimpleAnimation.iml" filepath="$PROJECT_DIR$/P0201_SimpleAnimation/P0201_SimpleAnimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/P0262_IntentFilter/P0262_IntentFilter.iml" filepath="$PROJECT_DIR$/P0262_IntentFilter/P0262_IntentFilter.iml" />
       <module fileurl="file://$PROJECT_DIR$/P0271_GetIntentAction/P0271_GetIntentAction.iml" filepath="$PROJECT_DIR$/P0271_GetIntentAction/P0271_GetIntentAction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P0281_IntentExtras/P0281_IntentExtras.iml" filepath="$PROJECT_DIR$/P0281_IntentExtras/P0281_IntentExtras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P0291_SimpleActivityResult/P0291_SimpleActivityResult.iml" filepath="$PROJECT_DIR$/P0291_SimpleActivityResult/P0291_SimpleActivityResult.iml" />
       <module fileurl="file://$PROJECT_DIR$/P0301_ActivityResult/P0301_ActivityResult.iml" filepath="$PROJECT_DIR$/P0301_ActivityResult/P0301_ActivityResult.iml" />
       <module fileurl="file://$PROJECT_DIR$/P0311_SimpleIntents/P0311_SimpleIntents.iml" filepath="$PROJECT_DIR$/P0311_SimpleIntents/P0311_SimpleIntents.iml" />
       <module fileurl="file://$PROJECT_DIR$/P0321_SimpleBrowser/P0321_SimpleBrowser.iml" filepath="$PROJECT_DIR$/P0321_SimpleBrowser/P0321_SimpleBrowser.iml" />
