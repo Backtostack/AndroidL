@@ -23,6 +23,13 @@
             <option value="$PROJECT_DIR$/P0181_DynamicLayout3" />
             <option value="$PROJECT_DIR$/P0191_SimpleCalculator" />
             <option value="$PROJECT_DIR$/P0201_SimpleAnimation" />
+            <option value="$PROJECT_DIR$/P0262_IntentFilter" />
+            <option value="$PROJECT_DIR$/P0271_GetIntentAction" />
+            <option value="$PROJECT_DIR$/P0281_IntentExtras" />
+            <option value="$PROJECT_DIR$/P0291_SimpleActivityResult" />
+            <option value="$PROJECT_DIR$/P0301_ActivityResult" />
+            <option value="$PROJECT_DIR$/P0311_SimpleIntents" />
+            <option value="$PROJECT_DIR$/P0321_SimpleBrowser" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/p0041basicviews" />
             <option value="$PROJECT_DIR$/p0051layoutfiles" />
